@@ -1,13 +1,10 @@
-
-import './App.css';
-import Contact from './components/Contact';
-
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import "./App.css";
 function App() {
-  return(
-    <div>
-      <Contact />
-    </div>
-  )
+  return (
+    <p> This is our website </p>
+  
+  );
 }
 
 export default App;
